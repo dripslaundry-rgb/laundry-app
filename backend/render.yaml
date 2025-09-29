@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: laundry-api
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node index.js"
+    rootDirectory: "."
+    nodeVersion: "18.x"
